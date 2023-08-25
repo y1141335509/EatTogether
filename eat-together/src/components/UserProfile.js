@@ -12,8 +12,8 @@ const columns = [
         value: 'Joe',
       },
       {
-        text: 'Yinghai',
-        value: 'Yinghai',
+        text: 'Jim',
+        value: 'Jim',
       },
       {
         text: 'Submenu',
@@ -93,9 +93,9 @@ const onChange = (pagination, filters, sorter, extra) => {
 
 
 // define the functional component:
-const FoodPreference = () => <Table columns={columns} dataSource={data} onChange={onChange} />;
+const UserProfile = () => <Table columns={columns} dataSource={data} onChange={onChange} />;
 
 
 
 
-export default FoodPreference;
+export default UserProfile;
