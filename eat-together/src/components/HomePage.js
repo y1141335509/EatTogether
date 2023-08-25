@@ -134,7 +134,6 @@ const HomePage = () => {
             />
           </Sider>
 
-          {/* Content on the right hand side of the main page */}
           <Content
             style={{
               padding: '0 24px',
