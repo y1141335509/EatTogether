@@ -6,6 +6,7 @@ import { Breadcrumb, Layout, Menu, theme } from 'antd';
 const { Header, Content, Footer, Sider } = Layout;
 
 
+
 const nav_labels = {
     '1': 'Home',
     '2': 'Start a Dinner',
@@ -93,7 +94,7 @@ const HomePage = () => {
               minHeight: 280,
             }}
           >
-            Content
+            <h3>Name: </h3>
           </Content>
         </Layout>
       </Content>
